@@ -1,0 +1,9 @@
+desktop_to_mobile_banner_icon:
+  type: string
+  default: "desktop"
+  description: "Here you can change the banner icon."
+svg_icons: 
+  default: ""
+  type: "list"
+  list_type: "compact"
+  description: "List of FontAwesome 5 icons used in this theme component."

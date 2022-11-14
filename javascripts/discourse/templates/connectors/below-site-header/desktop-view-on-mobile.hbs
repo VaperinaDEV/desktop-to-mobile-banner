@@ -1,0 +1,9 @@
+{{#if (and this.site.isMobileDevice (not this.site.mobileView))}}
+  <div class="desktop-to-mobile-banner-container">
+    <div class="wrap">
+      <div class="desktop-to-mobile-banner-main-content">
+        <span role="button" onclick={{route-action "toggleMobileView"}} class="desktop-to-mobile-banner-message">{{d-icon (theme-setting 'desktop_to_mobile_banner_icon')}} {{{theme-i18n "desktop_to_mobile_banner.message"}}}</span>
+      </div>
+    </div>
+  </div>
+{{/if}}

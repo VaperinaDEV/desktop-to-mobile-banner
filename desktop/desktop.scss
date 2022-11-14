@@ -1,0 +1,23 @@
+.desktop-to-mobile-banner-container {
+  background-color: var(--tertiary-low);
+  color: var(--tertiary);
+
+  .desktop-to-mobile-banner-main-content {
+    display: flex;
+  }
+
+  .desktop-to-mobile-banner-message {
+    padding: 0.75em 0;
+    cursor: pointer;
+    
+    span {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    .d-icon {
+      margin-right: 0.33em;
+      font-size: 0.9em;
+    }
+  }
+}
